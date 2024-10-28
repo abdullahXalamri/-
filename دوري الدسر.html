@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دوري الدسر</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .moving-title {
+            font-size: 24px;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            position: relative;
+            animation: move 10s linear infinite;
+            text-align: right;
+            color: #333;
+            margin-top: 40px;
+        }
+        @keyframes move {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>دوري الدسر</h1>
+
+    <table>
+        <tr>
+            <th>اسم الفريق</th>
+            <th>عدد النقاط</th>
+            <th>عدد الأهداف</th>
+            <th>الخسارة</th>
+            <th>التعادل</th>
+            <th>الفوز</th>
+            <th>المباريات</th>
+        </tr>
+        <tr>
+            <td>برشلونة</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>ريال مدريد</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>مانشستر سيتي</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>ليفربول</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>عمان</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>بايرن ميونيخ</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+    </table>
+
+    <h2 style="text-align: center; margin-top: 40px;">الفرق</h2>
+    <table>
+        <tr>
+            <th>مانشستر سيتي</th>
+            <th>برشلونة</th>
+            <th>ريال مدريد</th>
+            <th>ليفربول</th>
+            <th>عمان</th>
+            <th>بايرن ميونخ</th>
+        </tr>
+        <tr>
+            <td>محمد و محمد سنور</td>
+            <td>عبدالملك و مبابي</td>
+            <td>عبدالله و وليد</td>
+            <td>عبدالرحمن و سيف</td>
+            <td>براهيم و هود</td>
+            <td>عصام و نواف</td>
+        </tr>
+    </table>
+
+    <div class="moving-title">
+        المباراة الجاية: فريق برشلونة ضد ريال مدريد | بايرن ميونيخ ضد عمان | ليفربول ضد مانشستر سيتي
+    </div>
+
+</body>
+</html>
